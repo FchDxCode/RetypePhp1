@@ -1,15 +1,8 @@
-<?php 
-    require('SiswaRpl.php');
-    
-    $Siswa3 = new SiswaRpl();
-    $Siswa3->IsiData("K416","Mereka","2006","Jakarta");
-    $Siswa3->JudulLaporan("Laporan Pkl Bonet");
-    $Siswa3->CekData();
-    echo "<br />","<br />";
-    $Siswa3->CekData();
-    
-    
-    
-    
-
+<?php
+require('SiswaRpl.php');
+$Siswa3 = new SiswaRpl();
+$Siswa3->IsiData("K4161", "mereka", "2006", "Jakarta");
+$Siswa3->CetakData();
+$Siswa3->JudulLaporan("Laporan PKL Bonet");
+$Siswa3->CetakData();
 ?>
